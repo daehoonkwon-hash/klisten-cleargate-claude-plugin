@@ -1,0 +1,25 @@
+{
+  "name": "klisten-cleargate",
+  "version": "0.1.0",
+  "description": "Check an existing signed free content grant for your organization and exact intended use. Does not issue rights, fetch content, make payments or authorize unrelated use.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr"
+  },
+  "homepage": "https://klisten.co.kr/docs.html",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Klisten API key",
+      "description": "Your own Klisten API key with content:check in the organization holding the grant. Never share an operator key.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "license": "UNLICENSED",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html",
+  "documentationUrl": "https://klisten.co.kr/docs.html"
+}
