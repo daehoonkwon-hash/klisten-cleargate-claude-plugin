@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "cleargate": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/cleargate",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}
